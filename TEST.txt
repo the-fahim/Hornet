@@ -1,0 +1,3 @@
+./build.sh                          # Build only
+./build.sh examples/test.js         # Build and run
+./build.sh --dump-bytecode examples/test.js

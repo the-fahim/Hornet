@@ -1,8 +1,9 @@
-# Configure the build directory with Ninja
-cmake -G Ninja -B build -DCMAKE_BUILD_TYPE=Release
+#!/bin/bash
+set -e
 
-# Build the project
+cmake -S . -B build -G Ninja -DCMAKE_BUILD_TYPE=Release
 cmake --build build
 
-# Run the compiled executable
-./build/output
+if [ "$#" -gt 0 ]; then
+    ./build/output "$@"
+fi

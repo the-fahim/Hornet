@@ -1,0 +1,6 @@
+Infinity -Infinity true
+NaN NaN NaN
+false true false false
+-1 1 7
+false true
+Infinity -Infinity
