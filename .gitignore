@@ -1,0 +1,29 @@
+# CMake build directories
+build/
+bin/
+lib/
+
+# CMake temporary files generated during configuration
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Testing/
+install_manifest.txt
+*.cmake
+!CMakeLists.txt
+
+# Ninja build files
+.ninja_deps
+.ninja_log
+build.ninja
+
+# IDE and Editor configurations (VS Code, compile_commands)
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+compile_commands.json
+
+# Ccache cache files
+.ccache/
+
